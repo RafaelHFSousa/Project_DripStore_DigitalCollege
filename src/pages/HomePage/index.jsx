@@ -5,6 +5,8 @@ import { ColecoesDestaqueStyled, ProdutosAlta } from "./styled";
 import { useEffect, useState } from "react";
 import { ProductCardHome } from "../../components/ProductCardHome";
 import { OfertaEspecial } from "../../components/OfertaEspecial";
+import { Link } from "react-router-dom";
+import { ColecoesDestaque2 } from "../../components/ColecaoDestaque2";
 
 export const HomePage = () => {
   const [produtos, setProdutos] = useState();
@@ -29,17 +31,16 @@ export const HomePage = () => {
           <ColecaoDestaque discount={"30"} bgImageSrc={"/collection-3.png"} />
         </ColecoesDestaqueStyled>
       </section>
-      <section>
-        <div
-          style={{
-            marginTop: "50px",
-            padding: "10px 20px",
-            backgroundColor: "#F3F4F6",
-            fontweight: "bold",
-          }}
-        >
-          <h3>Produtos em alta</h3>
-        </div>
+      <ColecoesDestaque2 />
+      <section >
+          <div style={{display:'flex', justifyContent:'space-between', alignItems:'center', padding: "30px 80px 20px 20px", backgroundColor: "#F3F4F6"}}>
+            <h3 >
+              Produtos em Alta
+            </h3>
+            <Link style={{color:'#C92071', textDecoration:'none', fontWeight:'bold'}} to={"/produtos"}>
+              Ver todos <i style={{marginLeft:'8px', color:'#C92071'}} className="pi pi-arrow-right"></i>
+            </Link>
+          </div>
         <ProdutosAlta>
           {produtos &&
             produtos.map((e) => <ProductCardHome key={e.id} produto={e} />)}

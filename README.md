@@ -6,9 +6,7 @@
 
 
 
-\<p align="center"\>
-\<img src="[COLE O LINK DE UMA IMAGEM/GIF DO SEU PROJETO AQUI, POR EXEMPLO, DO CARROSSEL]" alt="Demonstração do Projeto Drip Store" width="80%"\>
-\</p\>
+
 
 
 ## 📖 Sobre o Projeto
@@ -87,11 +85,7 @@ $ npm run dev
 # O servidor será iniciado em http://localhost:5173
 ```
 
-## 🌐 Deploy
 
-Uma versão de demonstração desta aplicação foi publicada e pode ser acessada através do link abaixo:
-
-➡️ **[Acessar a Drip Store](teste)**
 
 ## 👨‍💻 Autor
 

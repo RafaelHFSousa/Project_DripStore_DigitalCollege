@@ -1,10 +1,10 @@
 # 👟 Drip Store Project
 
-\<br\>
+
 
 > **Nota do Projeto:** Este repositório contém o projeto de **front-end** desenvolvido como parte da avaliação do curso de Desenvolvimento Web Full Stack. O objetivo foi aplicar conceitos de React, componentização, roteamento e consumo de APIs em um ambiente prático.
 
-\<br\>
+
 
 \<p align="center"\>
 \<img src="[COLE O LINK DE UMA IMAGEM/GIF DO SEU PROJETO AQUI, POR EXEMPLO, DO CARROSSEL]" alt="Demonstração do Projeto Drip Store" width="80%"\>
@@ -95,9 +95,9 @@ Uma versão de demonstração desta aplicação foi publicada e pode ser acessad
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **[Rafael Holanda]**.
+Desenvolvido por **Rafael Holanda**.
 
-  - **GitHub:** [@seu-usuario-github](https://github.com/RafaelHFSousa)
-  - **LinkedIn:** [seu-linkedin](https://linkedin.com/in/rafael-holanda-f-de-sousa-336a27224)
+  - **GitHub:** [@RafaelHFSousa](https://github.com/RafaelHFSousa)
+  - **LinkedIn:** [Rafael Holanda F. de Sousa](https://linkedin.com/in/rafael-holanda-f-de-sousa-336a27224)
 
 -----
